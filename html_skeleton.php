@@ -17,6 +17,8 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+require "settings.php";
+
 function get_html_skeleton($title, $css_file, $body)
 {
 	$bob = "<!DOCTYPE html>\n<html>\n<head>\n";

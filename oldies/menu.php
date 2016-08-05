@@ -17,13 +17,18 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-function get_body_skeleton($go, $header, $menu, $content, $footer)
+function get_menu($database)
 {
-	$bob = "<div id=\"header\">\n$header $go\n</div>\n\n";
-	$bob .= "<div id=\"menu\">\n$menu\n</div>\n\n";
-	$bob .= "<div id=\"content\">\n$content\n</div>\n\n"; 
-	$bob .= "<div id=\"footer\">\n$footer\n</div>";
-	return $bob;
+	$db = new SQLite3($database);
+	$con = "";
+	$results = $db->query('SELECT id FROM pages');
+	
+	while ($row = $results->fetchArray())
+	{
+		$con = $con . " " . $row[0];
+	}
+	
+	return $con;
 }
 
 ?>

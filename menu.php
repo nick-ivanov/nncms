@@ -19,16 +19,7 @@
 
 function get_menu($database)
 {
-	$db = new SQLite3($database);
-	$con = "";
-	$results = $db->query('SELECT id FROM pages');
-	
-	while ($row = $results->fetchArray())
-	{
-		$con = $con . " " . $row[0];
-	}
-	
-	return $con;
+	return "<a href='index.php'>Home</a> | <a href='index.php?about'>About</a>";
 }
 
 ?>

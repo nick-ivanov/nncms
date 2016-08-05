@@ -17,9 +17,12 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-function get_content($database)
+function get_content($pages, $go)
 {
-	return "CONTENT";
+    if($go == 'p404') {
+        return "<b>Page not found</b>";
+    }
+	return "<p><b>" . file_get_contents("pages/$go.html") . "</b></p>";
 }
 
 ?>

@@ -17,13 +17,20 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-function get_body_skeleton($go, $header, $menu, $content, $footer)
-{
-	$bob = "<div id=\"header\">\n$header $go\n</div>\n\n";
-	$bob .= "<div id=\"menu\">\n$menu\n</div>\n\n";
-	$bob .= "<div id=\"content\">\n$content\n</div>\n\n"; 
-	$bob .= "<div id=\"footer\">\n$footer\n</div>";
-	return $bob;
+// This simple function provides a compelling protection
+function get_go($pages_ng) {
+    if(count($_GET) == 0) {
+        return 'home';
+    }
+
+    foreach(array_keys($pages_ng) as $go) {
+        if(isset($_GET[$go])) {
+            return $go;
+        }
+    }
+
+    return 'p404';
 }
+
 
 ?>

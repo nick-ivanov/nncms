@@ -22,12 +22,16 @@ require "html_skeleton.php";
 require "body_skeleton.php";
 require "menu.php";
 require "content.php";
-require "footer.php";
+require "get_footer.php";
 require "header.php";
+require "get_go.php";
+require "get_title.php";
 
-$body = get_body_skeleton(get_header("header"), get_menu($database),
-	get_content($database), get_footer("footer"));
+$go = get_go($pages);
 
-echo get_html_skeleton($title, "style.css", $body);
+$body = get_body_skeleton($go, get_header("header"), get_menu($database),
+	get_content($pages, $go), get_footer($footer_text));
+
+echo get_html_skeleton(get_title($pages, $go), "style.css", $body);
 
 ?>
