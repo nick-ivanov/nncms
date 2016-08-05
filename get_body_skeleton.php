@@ -17,9 +17,13 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-function get_menu($database)
+function get_body_skeleton($go, $header, $menu, $content, $footer)
 {
-	return "<a href='index.php'>Home</a> | <a href='index.php?about'>About</a>";
+	$bob = "<div id=\"header\">\n$header\n</div>\n\n";
+	$bob .= "<div id=\"menu\">\n$menu\n</div>\n\n";
+	$bob .= "<div id=\"content\">\n$content\n</div>\n\n"; 
+	$bob .= "<div id=\"footer\">\n$footer\n</div>";
+	return $bob;
 }
 
 ?>

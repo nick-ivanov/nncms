@@ -18,8 +18,8 @@
 */
 
 require("admin_settings.php");
-require("html_skeleton.php");
-require("body_skeleton.php");
+require("get_html_skeleton.php");
+require("get_body_skeleton.php");
 
 
 session_start(); // Starting Session

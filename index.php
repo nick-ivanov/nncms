@@ -18,18 +18,18 @@
 */
 
 require "settings.php";
-require "html_skeleton.php";
-require "body_skeleton.php";
-require "menu.php";
-require "content.php";
+require "get_html_skeleton.php";
+require "get_body_skeleton.php";
+require "get_menu.php";
+require "get_content.php";
 require "get_footer.php";
-require "header.php";
+require "get_header.php";
 require "get_go.php";
 require "get_title.php";
 
 $go = get_go($pages);
 
-$body = get_body_skeleton($go, get_header("header"), get_menu($database),
+$body = get_body_skeleton($go, get_header($title), get_menu($menu),
 	get_content($pages, $go), get_footer($footer_text));
 
 echo get_html_skeleton(get_title($pages, $go), "style.css", $body);

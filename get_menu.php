@@ -17,11 +17,13 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-require "settings.php";
-
-function get_header($title)
+function get_menu($menu)
 {
-	return $title;
+    $bob = "";
+    foreach($menu as $item) {
+        $bob = $bob . "<a href='$item[1]'>$item[0]</a> ";
+    }
+	return $bob;
 }
 
 ?>

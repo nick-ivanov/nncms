@@ -17,25 +17,29 @@
 */
 body
 {
-	font-family: "Monaco", "Courier";
+    text-align: center;
+    font-family: "Monaco", "Courier";
 }
 
 #header 
 {
-	padding: 5px;
+    text-align: center;
+    padding: 5px;
 	background-color: grey;
     color: red;
 }
 
 #main_menu
 {
-	padding: 5px;
+    text-align: center;
+    padding: 5px;
 	color: blue;
 }
 
 #content
 {
-	padding: 5px;
+    text-align: center;
+    padding: 5px;
 	color: green;
 }
 
