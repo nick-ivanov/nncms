@@ -1,0 +1,3 @@
+== VERSION 0.0.4 ==
+* README.txt added
+* CHANGELOG.txt added
