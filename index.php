@@ -30,7 +30,7 @@ require "get_title.php";
 $go = get_go($pages);
 
 $body = get_body_skeleton($go, get_header($title), get_menu($menu),
-	get_content($pages, $go), get_footer($footer_text));
+	get_content($go), get_footer($footer_text));
 
 echo get_html_skeleton(get_title($pages, $go), "style.css", $body);
 

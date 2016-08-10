@@ -1,7 +1,7 @@
 SM230 - pretty secure web content management system
 Copyright (C) 2016 Nick Ivanov <nnrowan@gmail.com>
 
-* CURRENT VERSION: 0.0.4 (see CHANGELOG.txt or [http://sm230.org?changelog] to learn what's cooking in this version)
+* CURRENT VERSION: 0.0.5 (see CHANGELOG.txt to learn what's cooking in this version)
 * LICENSE: GNU General Public License ver. 3
 
 == SETUP & USE ==
@@ -11,6 +11,5 @@ Copyright (C) 2016 Nick Ivanov <nnrowan@gmail.com>
 * Create pages as .html files in pages/ directory.
 * Enjoy.
 
-== QUESTIONS, FEEDBACK, BUGS (QFB) ==
-* http://sm230.org/
-* nnrowan@gmail.com
+== QUESTIONS, FEEDBACK, BUG REPORTS ==
+* nick@nnbits.org

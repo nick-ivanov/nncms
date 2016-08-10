@@ -1,7 +1,6 @@
 <?php
-$title = "My Awesome Website";
-$database = "database.db";
-$footer_text = "Copyright &copy; 2016 Nick Ivanov [nnrowan@gmail.com]";
+$title = "SM230 Demonstration Website";
+$footer_text = "Copyright &copy; 2016 John Appleseed [appleseed@example.com]";
 
 $pages = array(
     'home' => 'Home',

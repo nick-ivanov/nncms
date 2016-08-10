@@ -17,7 +17,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-function get_content($pages, $go)
+function get_content($go)
 {
     if($go == 'p404') {
         return "<b>Page not found</b>";

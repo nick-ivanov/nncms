@@ -19,7 +19,7 @@
 
 function get_header($title)
 {
-	return $title;
+	return "<a href='index.php'><img src='logo.png' alt='$title'/></a>";
 }
 
 ?>

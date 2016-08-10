@@ -1,3 +1,12 @@
-== VERSION 0.0.4 ==
-* README.txt added
-* CHANGELOG.txt added
+[= SM230 CHANGELOG =]
+
+[== Version 0.0.5 ==]
+[.] Image is added to the header
+[.] Minor source code refactoring
+[.] Footer template is changed
+[.] Header stylesheet is changed
+[.] Changelog format is changed
+
+[== Version 0.0.4 ==]
+[.] README.txt added
+[.] CHANGELOG.txt added
