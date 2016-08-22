@@ -18,12 +18,12 @@
 */
 
 // This simple function provides a compelling protection
-function get_go($pages_ng) {
+function get_go($pages) {
     if(count($_GET) == 0) {
         return 'home';
     }
 
-    foreach(array_keys($pages_ng) as $go) {
+    foreach(array_keys($pages) as $go) {
         if(isset($_GET[$go])) {
             return $go;
         }

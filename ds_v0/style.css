@@ -1,6 +1,5 @@
-<?php
 /*
-    SM230 - lightweight, secure and easy to use CMS
+    SM230: pretty secure CMS
     Copyright (C) 2016 Nick Ivanov <nnrowan@gmail.com>
 
     This program is free software: you can redistribute it and/or modify
@@ -17,7 +16,35 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-$admin_user = "admin";
-$admin_password = "password";
+body
+{
+    text-align: center;
+    font-family: "Monaco", "Courier";
+}
 
-?>
+#header 
+{
+    text-align: center;
+    padding: 5px;
+}
+
+#main_menu
+{
+    text-align: center;
+    padding: 5px;
+	color: blue;
+}
+
+#content
+{
+    text-align: left;
+    padding: 5px 10%;
+}
+
+#footer
+{
+	padding: 5px;
+	font-size: 0.7em;
+	text-align: center;
+	color: #aaa;
+}

@@ -1,6 +1,6 @@
 <?php
 $title = "SM230 Demonstration Website";
-$footer_text = "Copyright &copy; 2016 John Appleseed [appleseed@example.com]";
+$footer_text = "Copyright &copy; 2016 John Appleseed";
 
 $pages = array(
     'home' => 'Home',

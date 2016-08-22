@@ -17,7 +17,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-require "settings.php";
+require "ds_v0/settings.php";
 require "get_html_skeleton.php";
 require "get_body_skeleton.php";
 require "get_menu.php";
@@ -32,6 +32,6 @@ $go = get_go($pages);
 $body = get_body_skeleton($go, get_header($title), get_menu($menu),
 	get_content($go), get_footer($footer_text));
 
-echo get_html_skeleton(get_title($pages, $go), "style.css", $body);
+echo get_html_skeleton(get_title($pages, $go), "ds_v0/style.css", $body);
 
 ?>

@@ -23,6 +23,7 @@ function get_menu($menu)
     foreach($menu as $item) {
         $bob = $bob . "<a href='$item[1]'>$item[0]</a> ";
     }
+
 	return $bob;
 }
 

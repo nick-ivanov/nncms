@@ -22,7 +22,7 @@ function get_content($go)
     if($go == 'p404') {
         return "<b>Page not found</b>";
     }
-	return "<p><b>" . file_get_contents("pages/$go.html") . "</b></p>";
+	return "<hr />\n" . file_get_contents("ds_v0/pages/$go.html") . "\n<hr />";
 }
 
 ?>
