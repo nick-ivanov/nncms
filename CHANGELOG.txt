@@ -1,22 +1,26 @@
-[= SM230 CHANGELOG =]
+SM230 CHANGELOG
 
-[== Development version 0.0.7 ==]
-[.] Switch to development versions
-[.] Switch to DS (data/settings) version system
+Development version 0.0.8
+- Simplified changelog (preparation for future transition to .md)
+- All source files, except index.php and settings.php are moved to src/
 
-[== Development version 0.0.6 ==]
-[.] Horizontal lines before and after the content
-[.] Bug fix: bold content
-[.] Bug fix: content within a paragraph
-[.] Sample pages re-structured
+Development version 0.0.7
+- Switch to development versions
+- Switch to DS (data/settings) version system
 
-[== Development version 0.0.5 ==]
-[.] Image is added to the header
-[.] Minor source code refactoring
-[.] Footer template is changed
-[.] Header stylesheet is changed
-[.] Changelog format is changed
+Development version 0.0.6
+- Horizontal lines before and after the content
+- Bug fix: bold content
+- Bug fix: content within a paragraph
+- Sample pages re-structured
 
-[== Development version 0.0.4 ==]
-[.] README.txt added
-[.] CHANGELOG.txt added
+Development version 0.0.5
+- Image is added to the header
+- Minor source code refactoring
+- Footer template is changed
+- Header stylesheet is changed
+- Changelog format is changed
+
+Development version 0.0.4
+- README.txt added
+- CHANGELOG.txt added

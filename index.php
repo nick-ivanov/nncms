@@ -18,14 +18,14 @@
 */
 
 require "ds_v0/settings.php";
-require "get_html_skeleton.php";
-require "get_body_skeleton.php";
-require "get_menu.php";
-require "get_content.php";
-require "get_footer.php";
-require "get_header.php";
-require "get_go.php";
-require "get_title.php";
+require "src/get_html_skeleton.php";
+require "src/get_body_skeleton.php";
+require "src/get_menu.php";
+require "src/get_content.php";
+require "src/get_footer.php";
+require "src/get_header.php";
+require "src/get_go.php";
+require "src/get_title.php";
 
 $go = get_go($pages);
 
