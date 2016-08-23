@@ -1,5 +1,8 @@
 SM230 CHANGELOG
 
+Development version 0.0.9
+- Ignore IDE-related files
+
 Development version 0.0.8
 - Simplified changelog (preparation for future transition to .md)
 - All source files, except index.php and settings.php are moved to src/
