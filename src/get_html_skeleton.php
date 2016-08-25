@@ -17,7 +17,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-require "ds_v0/settings.php";
+require "data_and_settings/v0/settings.php";
 
 function get_html_skeleton($title, $css_file, $body)
 {
