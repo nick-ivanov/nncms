@@ -1,5 +1,8 @@
 SM230 CHANGELOG
 
+Development version 0.0.11
+- Link colors are added to style.css
+
 Development version 0.0.10
 - data_and_settings/VERSION_NUMBER user data storage approach is introduced
 

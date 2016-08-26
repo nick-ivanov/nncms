@@ -48,3 +48,8 @@ body
 	text-align: center;
 	color: #aaa;
 }
+
+a:link { color: darkblue; }
+a:visited { color: darkblue; }
+a:hover { color: green; }
+a:active { color: brown; }
