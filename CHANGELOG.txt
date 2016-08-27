@@ -1,5 +1,9 @@
 SM230 CHANGELOG
 
+Development version 0.0.12
+- Single $data_and_settings_dir parameter is introduced in index.php
+- Optimization and refactoring
+
 Development version 0.0.11
 - Link colors are added to style.css
 

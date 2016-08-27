@@ -17,7 +17,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-require "data_and_settings/v0/settings.php";
+$data_and_settings_dir = "data_and_settings/v0";
+
+require "$data_and_settings_dir/settings.php";
 require "src/get_html_skeleton.php";
 require "src/get_body_skeleton.php";
 require "src/get_menu.php";
@@ -29,9 +31,13 @@ require "src/get_title.php";
 
 $go = get_go($pages);
 
-$body = get_body_skeleton($go, get_header($title), get_menu($menu),
-	get_content($go), get_footer($footer_text));
+$body = get_body_skeleton(
+    get_header($title, $data_and_settings_dir),
+    get_menu($menu),
+	get_content($go, $data_and_settings_dir),
+    get_footer($footer_text)
+);
 
-echo get_html_skeleton(get_title($pages, $go), "data_and_settings/v0/style.css", $body);
+echo get_html_skeleton(get_title($pages, $go), "$data_and_settings_dir/style.css", $body);
 
 ?>

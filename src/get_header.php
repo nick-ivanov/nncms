@@ -17,9 +17,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-function get_header($title)
+function get_header($title, $data_and_settings_dir)
 {
-	return "<a href='index.php'><img src='data_and_settings/v0/images/logo.png' alt='$title'/></a><br />";
+	return "<a href='index.php'><img src='$data_and_settings_dir/images/logo.png' alt='$title'/></a><br />";
 }
 
 ?>

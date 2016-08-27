@@ -19,7 +19,7 @@
 
 function get_title($pages, $go) {
     if($go == 'p404') {
-        return 'Page not found (title)';
+        return 'Page not found';
     }
 
     return $pages[$go];

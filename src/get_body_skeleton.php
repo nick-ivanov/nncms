@@ -17,7 +17,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-function get_body_skeleton($go, $header, $menu, $content, $footer)
+function get_body_skeleton($header, $menu, $content, $footer)
 {
 	$bob = "<div id=\"header\">\n$header\n</div>\n\n";
 	$bob .= "<div id=\"menu\">\n$menu\n</div>\n\n";

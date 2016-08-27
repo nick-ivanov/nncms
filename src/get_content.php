@@ -17,12 +17,12 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-function get_content($go)
+function get_content($go, $data_and_settings_dir)
 {
     if($go == 'p404') {
         return "<b>Page not found</b>";
     }
-	return "<hr />\n" . file_get_contents("data_and_settings/v0/pages/$go.html") . "\n<hr />";
+	return "<hr />\n" . file_get_contents("$data_and_settings_dir/pages/$go.html") . "\n<hr />";
 }
 
 ?>
