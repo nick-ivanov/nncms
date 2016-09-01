@@ -1,5 +1,8 @@
 SM230 CHANGELOG
 
+Development version 0.0.13
+- Data & Settings version 1 is introduced
+
 Development version 0.0.12
 - Single $data_and_settings_dir parameter is introduced in index.php
 - Optimization and refactoring
