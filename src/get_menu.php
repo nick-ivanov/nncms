@@ -21,7 +21,7 @@ function get_menu($menu)
 {
     $bob = "";
     foreach($menu as $item) {
-        $bob = $bob . "<a href='$item[1]'>$item[0]</a> ";
+        $bob = $bob . "<a href='$item[1]'>[$item[0]]</a>  ";
     }
 
 	return $bob;

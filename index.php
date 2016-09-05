@@ -17,7 +17,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-$data_and_settings_dir = "data_and_settings/v0";
+$data_and_settings_dir = "data_and_settings";
 
 require "$data_and_settings_dir/settings.php";
 require "src/get_html_skeleton.php";

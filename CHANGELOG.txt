@@ -1,4 +1,9 @@
-SM230 CHANGELOG
+nnBits CMS CHANGELOG
+
+Development version 0.1.0
+- Large refactoring into nnBits CMS
+- Linux Kernel Development section
+- Bug fixes
 
 Development version 0.0.13
 - Data & Settings version 1 is introduced
