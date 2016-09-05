@@ -1,4 +1,8 @@
-nnBits CMS CHANGELOG
+nnBits CMS Changelog
+
+Development version 0.1.1
+- data_and_settings/pages/kernel.html:
+    Kernel Newbies website address fix
 
 Development version 0.1.0
 - Large refactoring into nnBits CMS
