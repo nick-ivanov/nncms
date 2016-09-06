@@ -1,5 +1,8 @@
 nnBits CMS Changelog
 
+Development version 0.1.2
+- settings.php: minor footer fix
+
 Development version 0.1.1
 - data_and_settings/pages/kernel.html:
     Kernel Newbies website address fix
