@@ -9,7 +9,7 @@ $pages = array(
     'about' => 'About',
     'projects' => 'Projects',
     'fcposl' => 'Fair Credit Permissive Open Source License',
-    'kernel' => 'Linux Kernel Development Pages'
+    'kernel' => 'Linux Kernel'
 );
 
 $menu = array(
