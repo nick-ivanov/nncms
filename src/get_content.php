@@ -19,9 +19,9 @@
 
 function get_content($go, $data_and_settings_dir)
 {
-    if($go == 'p404') {
+    /*if($go == 'p404') {
         return "<b>Page not found</b>";
-    }
+    }*/
 	return "<hr />\n" . file_get_contents("$data_and_settings_dir/pages/$go.html") . "\n<hr />";
 }
 
