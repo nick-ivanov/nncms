@@ -5,6 +5,7 @@ Text and visual content of this website, except when otherwise is specified, is 
 <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>.";
 
 $pages = array(
+	'p404' => 'Page not found',
     'home' => 'Home',
     'about' => 'About',
     'projects' => 'Projects',

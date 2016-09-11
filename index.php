@@ -34,7 +34,7 @@ $go = get_go($pages);
 $body = get_body_skeleton(
     get_header($title, $data_and_settings_dir),
     get_menu($menu),
-	get_content($go, $data_and_settings_dir),
+	get_content($go, $data_and_settings_dir, $pages[$go]),
     get_footer($footer_text)
 );
 
