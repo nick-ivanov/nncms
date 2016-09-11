@@ -16,7 +16,7 @@ $menu = array(
     array('Home', 'index.php'),
     array('About', 'index.php?about'),
     array('Projects', 'index.php?projects'),
-    array('Linux Kernel Development', 'index.php?kernel')
+    array('Linux Kernel', 'index.php?kernel')
 );
 
 ?>
