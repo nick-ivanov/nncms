@@ -1,0 +1,11 @@
+nnBits CMS Changelog
+
+dev-0.0.1
+---
+SUMMARY: Huge reconstruction and changelog re-introduction
+- CHANGELOG.txt: reintroduce
+- change old e-mail into new one in comments
+- remove $menu from $settings
+- introduce @ mark indicating a page is in the main menu
+- active menu item is underlined
+- data_and_settings/pages/kernel.html: fix two links

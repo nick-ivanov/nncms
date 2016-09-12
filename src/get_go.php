@@ -1,7 +1,7 @@
 <?php
 /*
     SM230: pretty secure CMS
-    Copyright (C) 2016 Nick Ivanov <nnrowan@gmail.com>
+    Copyright (C) 2016 Nick Ivanov <nick@nnbits.org>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -18,9 +18,9 @@
 */
 
 // This simple function provides a compelling protection
-function get_go($pages) {
+function get_go($pages, $default_page) {
     if(count($_GET) == 0) {
-        return 'home';
+        return $default_page;
     }
 
     foreach(array_keys($pages) as $go) {

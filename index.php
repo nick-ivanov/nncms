@@ -1,7 +1,7 @@
 <?php
 /*
     SM230: pretty secure CMS
-    Copyright (C) 2016 Nick Ivanov <nnrowan@gmail.com>
+    Copyright (C) 2016 Nick Ivanov <nick@nnbits.org>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -29,11 +29,11 @@ require "src/get_header.php";
 require "src/get_go.php";
 require "src/get_title.php";
 
-$go = get_go($pages);
+$go = get_go($pages, $home_page);
 
 $body = get_body_skeleton(
     get_header($title, $data_and_settings_dir),
-    get_menu($menu),
+    get_menu($pages, $go),
 	get_content($go, $data_and_settings_dir, $pages[$go]),
     get_footer($footer_text)
 );

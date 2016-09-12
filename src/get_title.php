@@ -1,7 +1,7 @@
 <?php
 /*
     SM230: pretty secure CMS
-    Copyright (C) 2016 Nick Ivanov <nnrowan@gmail.com>
+    Copyright (C) 2016 Nick Ivanov <nick@nnbits.org>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -22,5 +22,8 @@ function get_title($pages, $go) {
         return 'Page not found';
     }
 
+    if($pages[$go][0] == '@') {
+        return substr($pages[$go], 1, strlen($pages[$go])-1);
+    }
     return $pages[$go];
 }
