@@ -1,6 +1,10 @@
 nnBits CMS Changelog
 
 dev-0.0.1
+kernel-patching-cheatsheet.html: improvements
+changelog.html: improvements
+
+dev-0.0.1
 ---
 SUMMARY: Huge reconstruction and changelog re-introduction
 - CHANGELOG.txt: reintroduce
