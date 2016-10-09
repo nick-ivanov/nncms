@@ -14,7 +14,8 @@ $pages = array(
     'about' => '@About',
     'projects' => '@Projects',
     'fcposl' => 'Fair Credit Permissive Open Source License',
-    'kernel' => '@Linux Kernel'
+    'kernel' => '@Linux Kernel',
+    'kernel-patching' => 'Linux Kernel Patching'
 );
 
 ?>
