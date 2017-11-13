@@ -1,5 +1,5 @@
-nnBits CMS - a pretty secure CMS for nnBits and your website too
-Copyright (C) 2016 Nick Ivanov <nick@nnbits.com>
+nnCMS - a pretty secure CMS for nnBits and your website too
+Copyright (C) 2016 Nick Ivanov <nnrowan at gmail com>
 
 * LICENSE: GNU General Public License ver. 3
 
@@ -11,4 +11,4 @@ Copyright (C) 2016 Nick Ivanov <nick@nnbits.com>
 * Enjoy!
 
 == QUESTIONS, FEEDBACK, BUG REPORTS ==
-* nick@nnbits.org
+* nnrowan at gmail com
